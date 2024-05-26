@@ -179,4 +179,4 @@ Position: & \@claimedposition \\
     \renewcommand{\labelitemi}{\coloredbullet}
   \begin{itemize}
     \makeatletter
-    \@for\this
+    \@for\thisitem:=#1\do{\itemwith
